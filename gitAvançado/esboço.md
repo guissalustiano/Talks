@@ -27,19 +27,19 @@ Cuidado isso vai reescrever seu historico ( e se vc já deu um push, vai ter que
 Esse você provavelmente conhece, permite a você forçar o repositorio remoto (leia-se github/gitlab/bitbucket)
 a aceitar o seu repositorio, sobrescrevento tudo que tem lá (alterações de outras pessoas por exemplo). Use com sabedoria
 
-## ~ e ^
+## \~ e ^
 Permite a você referencia commits pais com maior facilidade, a diferença entre 
-eles é de onde começam a contar, HEAD~1 == HEAD^0, o ^ começa a partir do pai do atual
-e o ~ a partir do atual. Por motivos que eu já não sei se vc só usar HEAD~ = HEAD^ = HEAD~1
+eles é de onde começam a contar, HEAD\~1 == HEAD^0, o ^ começa a partir do pai do atual
+e o \~ a partir do atual. Por motivos que eu já não sei se vc só usar HEAD\~ = HEAD^ = HEAD~1
 
 ## git stach
 Permite a você a commitar em um universo paralelo, e depois recuperar esse commit. Util quando vc fez algo pela metade e não quer commitar.
 Minha explicação ficou besta pq a [documentação](https://git-scm.com/book/pt-br/v2/Git-Tools-Stashing-and-Cleaning) é muito boa.
 
-## git rebase -i](https://git-scm.com/book/pt-br/v2/Git-Tools-Rewriting-Historyhttps://git-scm.com/book/pt-br/v2/Git-Tools-Rewriting-History)
+## [git rebase -i](https://git-scm.com/book/pt-br/v2/Git-Tools-Rewriting-Historyhttps://git-scm.com/book/pt-br/v2/Git-Tools-Rewriting-History)
 Perfeito pra trocar a ordem entre commits, reescrever mensagens, mesclar commits e outras coisas interessantes
 
-## git [filter-branch](https://git-scm.com/book/pt-br/v2/Git-Tools-Rewriting-History)
+## [git filter-branch](https://git-scm.com/book/pt-br/v2/Git-Tools-Rewriting-History)
 Esse aqui permite a você reescrever a historia por meio de script,
 util para quando uma grande quantidade de commits para se tirar um arquivos de senhar por exemplo
 
