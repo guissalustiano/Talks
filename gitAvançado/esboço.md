@@ -51,4 +51,7 @@ passos ele identifica onde houve um problema.
 Ele pode testar automaticamente com o `git bisect run`
 
 
+# Esqueci de algum?
+Manda um PR ai
+
 
